@@ -14,9 +14,9 @@ function BoardMember(name, homeState, training) {
   this.veto = function() {
     return "No, I must disagree";
   }
-  // this.approve = function() {
-  //   console.log("You can do that!");
-  // }
+  this.approve = function() {
+     return "You can do that!";
+   }
   // this.doCharity = function() {
   //   console.log("I like to help people.");
   // }
