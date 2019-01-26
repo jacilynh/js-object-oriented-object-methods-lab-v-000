@@ -12,13 +12,13 @@ function BoardMember(name, homeState, training) {
   this.homeState = homeState
   this.training = training
   this.veto = function() {
-    console.log("No, I must disagree")
+    console.log("No, I must disagree");
   }
   this.approve = function() {
-    console.log("You can do that!")
+    console.log("You can do that!");
   }
   this.doCharity = function() {
-    console.log("I like to help people.")
+    console.log("I like to help people.");
   }
   
 }
