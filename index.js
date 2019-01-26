@@ -20,5 +20,10 @@ function BoardMember(name, homeState, training) {
   this.doCharity = function() {
      return "I like to help people.";
   }
-  
+  this.releasePressStatement = function() {
+    return "You will see great things from Scuber."
+  }
+  this.sayHi = function() {
+    return "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."
+  }
 }
